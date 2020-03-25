@@ -2,6 +2,10 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div id="nav">
+     <router-link :to="{ name: 'home' }">Vue</router-link> |
+     <router-link :to="{ name: 'messages' }">Django Rest</router-link>
+    </div>
   </div>
 </template>
 
